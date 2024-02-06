@@ -1,0 +1,20 @@
+{
+    "data":[
+        {
+            "id":"1",
+            "nombre":"ERP",
+            "href":"./productos"
+
+        },
+        {
+            "id":"2",
+            "nombre":"CRM",
+            "href":"./productos"
+        },
+        {
+            "id":"3",
+            "nombre":"BI",
+            "href":"./productos"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+.icon-footer-whatssap{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999999;
+  }
+  
+  .icon-footer-whatssap img{
+    width: 70px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .icon-footer-whatssap img:hover{
+    width: 90px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }

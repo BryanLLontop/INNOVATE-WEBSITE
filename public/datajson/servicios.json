@@ -1,0 +1,19 @@
+{
+    "data":[
+        {
+            "id":"1",
+            "nombre":"Consultoría Empresarial e Informática",
+            "href":"./servicios"
+        },
+        {
+            "id":"2",
+            "nombre":"Software a medida",
+            "href":"./servicios"
+        },
+        {
+            "id":"3",
+            "nombre":"Fabrica de Software",
+            "href":"./servicios"
+        }
+    ]
+}

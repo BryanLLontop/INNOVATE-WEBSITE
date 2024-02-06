@@ -1,0 +1,97 @@
+@import url('bootstrap/dist/css/bootstrap.min.css');
+@import url('bootstrap-icons/font/bootstrap-icons.min.css');
+@import url('slick-carousel/slick/slick.css');
+@import url('slick-carousel/slick/slick-theme.css');
+
+.bgcolor-red{
+  background-color: #d02024;
+}
+.bgcolor-orange{
+  background-color: #f36f2a;
+}
+.bgcolor-yelow{
+  background-color: #fde402;
+}
+.no-padding-nav {
+  padding: 0;
+}
+
+.shareredes{
+  display: inline-flex;
+    vertical-align: middle;
+}
+
+.fondotop{
+  background-color: #d02024;
+  color: #FFF;
+  font-size: 0.8em;
+  padding: 1.5ex 15px 15px 1.5ex;
+}
+.txttop{
+  font-size: 1.5em;
+  font-weight: 600;
+  vertical-align: middle;
+  padding-top: 0.5ex;
+}
+
+.animacionmenu{
+  position: relative;
+}
+.menutop{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background: #fff;
+  margin: auto;
+  z-index: 99999;
+}
+
+.menu-items {
+  justify-content: flex-end;
+  width: 100%;
+}
+.menu-items li a {
+  color: #f36f2a;
+  font-weight: 600;
+  font-size: 1.15em;
+}
+.menu-items li a:focus, .menu-items li a:active, .menu-items li a.active {
+  color: #d02024;
+  font-weight: 600;
+  font-size: 1.15em;
+}
+
+.footerTitulo{
+  font-size: 1.3em;
+    font-weight: 600;
+    color: #b31c22;
+    padding-top: 1.1ex ;
+    padding-bottom: 1ex;
+}
+
+.iconfooter{
+  padding-right: 1em;
+}
+
+.footer2{
+  padding-bottom:1.5ex ;
+}
+.footer2 ul{
+  padding-left: 0px;
+}
+
+.footer2 ul li{
+  list-style: none;
+}
+.footer2 a, .footer2 a:focus, .footer2 a:active,.footer2{
+  color: #000;
+  font-size: 1.1em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer2 .textoslogan{
+  padding-top: 1em;
+  padding-bottom: 1ex;
+}
+

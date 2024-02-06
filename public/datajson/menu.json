@@ -1,0 +1,43 @@
+{
+    "data":[
+        {
+            "id":1,     
+            "titulo":"Inicio",
+            "href":"./",
+            "tipo":"item",
+            "mostrar":true    
+        },{ "id":2, 
+            "titulo":"¿Quiénes Somos?",
+            "href":"./quienessomos",
+            "tipo":"item" ,
+            "mostrar":true 
+        },{
+            "id":3, 
+            "titulo":"¿Que Ofrecemos?",
+            "href":"./productos",
+            "tipo":"megaMenu",
+            "mostrar":true,
+            "submenus":[
+                {"titulo":"Productos","titulodestacado":" Productos Destacados","data":"/datajson/productos.json","textodestacado":"Potencia tu empresa con nuestra suite de soluciones empresariales.","imgdestacados":"./images/products/productosdestacados.png"},
+                {"titulo":"Servicios","titulodestacado":" Servicios Destacados","data":"/datajson/servicios.json","textodestacado":"Descubre cómo nuestra combinación de consultoría empresarial y desarrollo de software puede llevar tu empresa al siguiente nivel.","imgdestacados":"./images/services/serviciosdestacados.png"}
+            ]
+        },{
+            "id":4, 
+            "titulo":"Contactanos",
+            "href":"/contactanos",
+            "tipo":"item" ,
+            "mostrar":true 
+        },{
+            "id":5, 
+            "titulo":"lista",
+            "href":"/lista",
+            "tipo":"dropdown" ,
+            "mostrar":false, 
+            "submenus":[
+                {"titulo":"item1", "href":"./"},
+                {"titulo":"item2", "href":"./"},
+                {"titulo":"item3", "href":"./"}
+            ]
+        }
+    ]
+}
