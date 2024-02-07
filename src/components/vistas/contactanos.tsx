@@ -12,7 +12,7 @@ export default function CContactanos(props:any) {
    };
 
    return (<>
-      <div className="container px-4 pt-5 my-3">
+      <div className="containerformulario px-4 pt-5 my-3">
          <h2 className="text-center mb-4">Contacto vía WhatsApp</h2>
          <form>
          <div className="mb-3">
@@ -23,7 +23,7 @@ export default function CContactanos(props:any) {
             <label htmlFor="mensaje" className="form-label">Mensaje</label>
             <textarea className="form-control" id="mensaje" rows={5} value={mensaje} onChange={(e) => setMensaje(e.target.value)} required></textarea>
          </div>
-         <button type="button" className="btn btn-primary" onClick={handleEnviarMensaje}>Enviar a WhatsApp</button>
+         <button type="button" className="btn btn-success" onClick={handleEnviarMensaje}><i className='bi bi-whatsapp'></i> Enviar a WhatsApp</button>
          </form>
       </div>
    </>);

@@ -14,7 +14,7 @@ export default function CServicios(props:any) {
    }, [])
 
       return(<>
-      <div className="container px-4 py-5" id="custom-cards">
+      <div className="container px-4 py-5" style={{marginTop: '30px'}} id="custom-cards">
       <h2 className="pb-2 border-bottom">Nuestros Servicios</h2>
 
       <div className="row row-cols-1 align-items-stretch g-4 py-4">

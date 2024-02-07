@@ -19,13 +19,13 @@ export default function CFooter(props:any) {
       <>
       <div className="fondotop">
       <div className="container">
-       <div className="row">
-         <div className="text-center text-md-start col-sm-12 col-md-6 txttop">
-         &#169; {txtderechos}
-         </div>
-         <div className="text-center text-md-end col-sm-12 col-md-6 ">
-         </div>
-       </div>
+        <div className="row">
+          <div className="text-center text-md-start col-sm-12 col-md-6 txttop">
+          &#169; {txtderechos}
+          </div>
+          <div className="text-center text-md-end col-sm-12 col-md-6 ">
+          </div>
+        </div>
       </div>
       </div>
       <div >
@@ -33,5 +33,5 @@ export default function CFooter(props:any) {
           <img src="./images/icon-whatsapp.png" className='img-fluid' /></a>
       </div>
       </>
-     )
-   }
+    )
+  }

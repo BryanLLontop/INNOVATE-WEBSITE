@@ -48,7 +48,7 @@ export default function CFooter2(props:any) {
                             console.log(item);
                             return (
                                 <li key={'menupie_'+k}>
-                                <a href={item.href}><i className='bi bi-check-all'></i> {item.titulo}</a>
+                                <a href={item.href}><i className='bi bi-arrow-right-square-fill'></i> {item.titulo}</a>
                                 </li>
                             );
                         })   
@@ -58,7 +58,7 @@ export default function CFooter2(props:any) {
             </div>
             <div className="col-sm-12 col-md-4 footer-redes">
                 <div className="footerTitulo">
-                    Ubicanos
+                    Ubícanos
                 </div>
                 <div className='row'>
                     <div className="col-md-12"><strong className='iconfooter'><i className='bi bi-pin-map-fill'></i></strong> {dataInfo.direccion}</div>

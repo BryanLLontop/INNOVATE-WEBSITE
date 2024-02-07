@@ -2,7 +2,7 @@
 import React, {useState, useEffect} from 'react'
 import CSharesocial from "../redes/share";
 export default function CTop(props:any) {
-    const predatainfo={telefono:''}
+    const predatainfo={correo:''}
     const [dataInfo, setDataInfo] = useState(predatainfo);
     const menutmp=props.menu||'inicio';
     useEffect(() => {
@@ -19,9 +19,12 @@ export default function CTop(props:any) {
       <div className="container-fluid">
         <div className="row">
           <div className="text-center text-md-start col-sm-12 col-md-6 txttop">
-            Contactanos : {dataInfo.telefono}
+          <a href={`mailto:${dataInfo.correo}`} style={{ color: 'inherit', textDecoration: 'none', padding: '5px', borderRadius: '5px' }}>
+            <i className="bi bi-envelope-at-fill"/>
+            </a>
+            {dataInfo.correo}
           </div>
-          <div className="text-center text-md-end col-sm-12 col-md-6 ">
+          <div className="text-center text-md-end col-sm-12 col-md-6 txttop">
           <CSharesocial titulo='Siguenos: '/>
           </div>
         </div>

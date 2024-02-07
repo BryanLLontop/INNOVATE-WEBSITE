@@ -16,7 +16,7 @@ export default function CMenu(props:any) {
    }, [])
    return(
    <>
-   <div className="panel row navbar toolbar2 menutop no-padding-nav">
+   <div className="panel row navbar toolbar2 menutop">
       <div className="col">
          <nav className="navbar navbar-expand-lg bg-transparent menus-top no-padding-nav">
             <div className="container">

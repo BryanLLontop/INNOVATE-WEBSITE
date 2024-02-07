@@ -18,10 +18,10 @@ export default function CHome(props:any) {
          <h1 className="display-4 fw-bold">Innovate</h1>
          <div className="col-lg-6 mx-auto">
             <p className="lead mb-4">En nuestra empresa, nos especializamos en consultoría empresarial e informática,
-             así como en el desarrollo de software a medida. Nuestro enfoque incluye la rápida creación y personalización de sitios web receptivos, 
+            así como en el desarrollo de software a medida. Nuestro enfoque incluye la rápida creación y personalización de sitios web receptivos, 
             utilizando herramientas de vanguardia para garantizar la mejor experiencia para nuestros clientes.</p>
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-            <button type="button" className="btn btn-outline-danger btn-lg px-4">Contactanos</button>
+            <a type="button" className="btn btn-outline-danger btn-lg px-4" href="./contactanos">Contactanos</a>
             </div>
          </div>
          <div className="overflow-hidden"  style={{ maxHeight: `40vh` }}>

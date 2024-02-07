@@ -22,12 +22,8 @@ export default function CClientes(props: any) {
                             <svg className="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label={`Cliente: ${cliente.nombre}`} preserveAspectRatio="xMidYMid slice" focusable="false">
                                 <title>{cliente.nombre}</title>
                                 <rect width="100%" height="100%" fill="#ffffff"></rect>
-                                <text x="50%" y="50%" fill="#e6782f" dy=".3em"></text>
                                 <image href={cliente.href} width="140" height="140" />
                             </svg>
-
-                            <h2>{cliente.nombre}</h2>
-                            <p>Texto alternativo.</p>
                         </div>
                     ))}
                 </div>

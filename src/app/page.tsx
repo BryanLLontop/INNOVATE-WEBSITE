@@ -15,7 +15,7 @@ import COMInfo from '@/components/informacion/info'
 import COMNosotros from '@/components/nosotros/nosotros'
 import COMProductoBuscar from '@/components/proyectos/buscador'*/
 export const metadata: Metadata = {
-  title: 'imnovate.pe : Inicio',
+  title: 'innovate.pe : Inicio',
   description: 'Pagina incial de Imnovate',
   icons: {
     icon: '/images/favicon.ico', // /public path
@@ -25,6 +25,7 @@ export default function Home() {
   return (
     <>     
       <CTop />
+      
       <div className='animacionmenu'>
           <CAnimacion menu="inicio" />
           <CMenu />

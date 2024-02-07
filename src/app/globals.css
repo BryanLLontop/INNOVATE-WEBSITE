@@ -17,19 +17,24 @@
 }
 
 .shareredes{
-  display: inline-flex;
+    display: inline-flex;
     vertical-align: middle;
 }
 
+.shareredestitulo{
+  vertical-align: middle;
+}
+
 .fondotop{
-  background-color: #d02024;
+  background-color: #b11d21 ;
   color: #FFF;
   font-size: 0.8em;
   padding: 1.5ex 15px 15px 1.5ex;
 }
 .txttop{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.5em;
-  font-weight: 600;
+  font-weight: bolder;
   vertical-align: middle;
   padding-top: 0.5ex;
 }
@@ -51,12 +56,12 @@
   width: 100%;
 }
 .menu-items li a {
-  color: #f36f2a;
+  color:  #ec6d29;
   font-weight: 600;
   font-size: 1.15em;
 }
 .menu-items li a:focus, .menu-items li a:active, .menu-items li a.active {
-  color: #d02024;
+  color:  #f9dd07 ;
   font-weight: 600;
   font-size: 1.15em;
 }
@@ -95,3 +100,29 @@
   padding-bottom: 1ex;
 }
 
+.textoslider {
+  font-size: 2.5em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.subtextoslider {
+  font-size: 1.5em;
+  font-family:Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.titulocliente {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Tipo de fuente */
+  color: #1e1e1e; 
+  font-size: 24px; 
+  text-transform: uppercase;
+}
+.containerformulario {
+  max-width: 600px; /* Establece el ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px; /* Añade espacio interno al contenedor */
+  background-color: #f0f0f0; /* Color de fondo del contenedor */
+  border-radius: 10px; /* Redondea los bordes del contenedor */
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); /* Agrega sombra al contenedor */
+}

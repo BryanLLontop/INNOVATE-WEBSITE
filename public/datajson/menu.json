@@ -23,8 +23,8 @@
             ]
         },{
             "id":4, 
-            "titulo":"Contactanos",
-            "href":"/contactanos",
+            "titulo":"Contáctanos",
+            "href":"./contactanos",
             "tipo":"item" ,
             "mostrar":true 
         },{

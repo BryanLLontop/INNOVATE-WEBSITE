@@ -7,7 +7,7 @@ import CAnimacion from '@/components/slider/animacion'
 import CTop from '@/components/top/top'
 import type { Metadata } from 'next'
 export const metadata: Metadata = {
-  title: 'imnovate.pe : Quienes Somos',
+  title: 'innovate.pe : Quienes Somos',
   description: 'Pagina incial de Imnovate',
   icons: {
     icon: '/images/favicon.ico', // /public path
