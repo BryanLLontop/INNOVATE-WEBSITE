@@ -18,11 +18,9 @@ export default function Home() {
     <>     
     <CTop />
     <div className='animacionmenu'>
-        <CAnimacion menu="quienessomos" />
         <CMenu menu="quienesomos"/>
-        
+        <CAnimacion menu="quienessomos" />
     </div>
-    
     <CContent />
     <CClientes />
     <CFooter2 />

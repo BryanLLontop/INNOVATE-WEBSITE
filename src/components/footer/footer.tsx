@@ -30,7 +30,7 @@ export default function CFooter(props:any) {
       </div>
       <div >
         <a target="_blank" href={`https://api.whatsapp.com/send?phone=51954498176`} className="icon-footer-whatssap">
-          <img src="./images/icon-whatsapp.png" className='img-fluid' /></a>
+          <img src="./images/icon-whatsapp.png" className='img-fluid' alt="wsp"/></a>
       </div>
       </>
     )

@@ -1,10 +1,10 @@
 {
     "inicio":[
-        {"texto":"Fábrica de Software de Vanguardia","imagen":"/images/slider/inicio1.png","href":"", "subtexto":"Innovamos en el corazón de la tecnología, desarrollando soluciones a medida para tu éxito." },
-        {"texto":"Consultoría Especializada","imagen":"/images/slider/inicio2.png","href":"", "subtexto":"Ofrecemos asesoramiento estratégico para optimizar tus procesos mediante la tecnología." },
-        {"texto":"Desarrollo a Medida","imagen":"/images/slider/inicio3.png","href":"", "subtexto":"Creamos aplicaciones personalizadas que se adaptan a las necesidades únicas de tu empresa." }],    
+        {"texto":"Fábrica de Software de Vanguardia","imagen":"/images/slider/inicio1.avif","href":"", "subtexto":"Innovamos en el corazón de la tecnología, desarrollando soluciones a medida para tu éxito." },
+        {"texto":"Consultoría Especializada","imagen":"/images/slider/inicio2.avif","href":"", "subtexto":"Ofrecemos asesoramiento estratégico para optimizar tus procesos mediante la tecnología." },
+        {"texto":"Desarrollo a Medida","imagen":"/images/slider/inicio3.avif","href":"", "subtexto":"Creamos aplicaciones personalizadas que se adaptan a las necesidades únicas de tu empresa." }],    
     "quienessomos": [
-        {"texto":"Quienes Somos","imagen":"/images/slider/quienessomos1.png","href":"", "subtexto":"Somos una empresa con amplia experiencia en la solución de problemáticas empresariales mediante el uso de la tecnología de información (TI)." }],   
+        {"texto":"Quiénes Somos","imagen":"/images/slider/quienessomos1.avif","href":"", "subtexto":"Somos una empresa con amplia experiencia en la solución de problemáticas empresariales mediante el uso de la tecnología de información (TI)." }],   
     "proyectos": [
         {"texto":"","imagen":"/images/slider/proyectos1.png","href":"" }],
     "productos":[
@@ -14,5 +14,5 @@
     "clientes":[
         {"texto":"","imagen":"/images/slider/clientes1.png","href":"" }],
     "contactanos": [
-        {"texto":"Comunícate con Nosotros","imagen":"/images/slider/contactanos.png","href":"", "subtexto":"Dejanos tu consulta Pronto nos pondremos en contácto con usted."  }]
+        {"texto":"Comunícate con Nosotros","imagen":"/images/slider/contactanos.avif","href":"", "subtexto":"Déjanos tu consulta. Pronto nos pondremos en contácto con usted."}]
 }

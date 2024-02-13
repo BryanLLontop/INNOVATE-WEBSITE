@@ -1,22 +1,15 @@
-'use client'
+
 import React from 'react';
 import {
-   FacebookShareButton,
-   FacebookIcon, 
-   WhatsappShareButton,
+   FacebookIcon,
    WhatsappIcon,
-   LinkedinShareButton,
    LinkedinIcon,
-   TelegramShareButton,
    TelegramIcon,
 } from 'next-share';
 
 export default function CSharesocial(props: any){
    const clases = props.clases || 'shareredes';
-   const clases2 = props.clases2 || 'shareredestitulo';
    const titulo = props.titulo || '';
-   const url = 'https://imnovate.pe/' + (props.url || '');
-   const textocompartir = props.textocompartir || titulo;
    const idshare = props.idshare || 'sharesocial';
 
    const estiloIcono = {
@@ -25,21 +18,23 @@ export default function CSharesocial(props: any){
 
    return (
       <div className={clases} key="keysocial1" id={idshare}>
-         <FacebookShareButton url={url} quote={textocompartir} hashtag={'#' + idshare}>
+         <a href="https://www.facebook.com/profile.php?id=61556572370304" target="_blank">
             <FacebookIcon size={30} round style={estiloIcono} />
-         </FacebookShareButton>
+         </a>
 
-         <WhatsappShareButton url={url}>
-            <WhatsappIcon size={30} round style={estiloIcono} />
-         </WhatsappShareButton>
+         <a href="https://api.whatsapp.com/send?phone=51954498176" target="_blank">
+         <WhatsappIcon size={30} round style={estiloIcono} />
+         </a>
 
-         <LinkedinShareButton url={url}>
-            <LinkedinIcon size={30} round style={estiloIcono} />
-         </LinkedinShareButton>
-         
-         <TelegramShareButton url={url} title={titulo}>
-            <TelegramIcon size={30} round style={estiloIcono} />
-         </TelegramShareButton>
+         <a href="https://www.linkedin.com/company/innovateper/" target="_blank">
+         <LinkedinIcon size={30} round style={estiloIcono} />
+         </a>
+
+         <a href="https://www.facebook.com/profile.php?id=61556572370304" target="_blank">
+         <TelegramIcon size={30} round style={estiloIcono} />
+         </a>
+
       </div>
+      
    );
 }

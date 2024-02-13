@@ -13,13 +13,13 @@
             "mostrar":true 
         },{
             "id":3, 
-            "titulo":"¿Que Ofrecemos?",
+            "titulo":"¿Qué Ofrecemos?",
             "href":"./productos",
             "tipo":"megaMenu",
             "mostrar":true,
             "submenus":[
-                {"titulo":"Productos","titulodestacado":" Productos Destacados","data":"/datajson/productos.json","textodestacado":"Potencia tu empresa con nuestra suite de soluciones empresariales.","imgdestacados":"./images/products/productosdestacados.png"},
-                {"titulo":"Servicios","titulodestacado":" Servicios Destacados","data":"/datajson/servicios.json","textodestacado":"Descubre cómo nuestra combinación de consultoría empresarial y desarrollo de software puede llevar tu empresa al siguiente nivel.","imgdestacados":"./images/services/serviciosdestacados.png"}
+                {"titulo":"Productos","titulodestacado":" Productos Destacados","data":"/datajson/productos.json","textodestacado":"Potencia tu empresa con nuestra suite de soluciones empresariales.","imgdestacados":"./images/products/productosdestacados.avif"},
+                {"titulo":"Servicios","titulodestacado":" Servicios Destacados","data":"/datajson/servicios.json","textodestacado":"Descubre cómo nuestra combinación de consultoría empresarial y desarrollo de software puede llevar tu empresa al siguiente nivel.","imgdestacados":"./images/services/serviciosdestacados.avif"}
             ]
         },{
             "id":4, 

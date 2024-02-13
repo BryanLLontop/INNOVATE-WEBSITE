@@ -20,7 +20,7 @@ export default function CServicios(props:any) {
       <div className="row row-cols-1 align-items-stretch g-4 py-4">
 
             <div className="col">
-            <div className="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style={{ backgroundColor: '#d02024' }}>
+            <div className="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style={{ backgroundColor: '#b11d21' }}>
                <div className="d-flex flex-column h-100 p-5 pb-5 text-white text-shadow-1">
                <div className="row justify-content-md-center">
                <div className="col-sm-12 col-md-4 d-flex align-items-center justify-content-center">
@@ -43,7 +43,7 @@ export default function CServicios(props:any) {
             </div>
 
             <div className="col">
-            <div className="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style={{ backgroundColor: '#d02024' }}>
+            <div className="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style={{ backgroundColor: '#b11d21' }}>
                <div className="d-flex flex-column h-100 p-5 pb-5 text-white text-shadow-1">
                <div className="row justify-content-md-center">
                
@@ -67,7 +67,7 @@ export default function CServicios(props:any) {
             </div>
 
             <div className="col">
-            <div className="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style={{ backgroundColor: '#d02024' }}>
+            <div className="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style={{ backgroundColor: '#b11d21' }}>
                <div className="d-flex flex-column h-100 p-5 pb-5 text-white text-shadow-1">
                <div className="row justify-content-md-center">
                <div className="col-sm-12 col-md-4 d-flex align-items-center justify-content-center">

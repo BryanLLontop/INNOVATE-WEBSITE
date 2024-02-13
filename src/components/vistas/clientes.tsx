@@ -1,6 +1,8 @@
 "use client"
 import React, {useState, useEffect} from 'react'
-
+import Slider from "react-slick";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 export default function CClientes(props: any) {
     const [dataClientes, setClientes] = useState([]); // Inicializar dataClientes como un array vacío
     const clientestmp = props.cliente || 'data';
@@ -11,22 +13,55 @@ export default function CClientes(props: any) {
                 setClientes(datatmp[clientestmp])
             })
     }, []);
-
+    
+    var settings = {
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true, // Activar el autoplay
+        autoplaySpeed: 1000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+                }
+            }
+            
+            ]
+        };
     return (
-        <>
-            <div className="container text-center px-4 py-5" id="custom-cards">
-                <h1 className="display-4 fw-bold py-4">Nuestros Clientes</h1>
-                <div className="row">
-                    {dataClientes.map((cliente: any, index) => (
-                        <div className="col-lg-3" key={index}>
-                            <svg className="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label={`Cliente: ${cliente.nombre}`} preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>{cliente.nombre}</title>
-                                <rect width="100%" height="100%" fill="#ffffff"></rect>
-                                <image href={cliente.href} width="140" height="140" />
-                            </svg>
-                        </div>
-                    ))}
-                </div>
+        <>  
+            <div className="container text-center px-4 py-5">
+                <h1 className="display-4 fw-bold ">Nuestros Clientes</h1>
+                <div className=" auspiciadores1">
+                        <Slider {...settings}>
+                            {dataClientes.map((cliente: any, index) => (
+                                <div className='zoom-effect' key={index}>
+                                    <img alt={cliente.nombre} src={cliente.href} className="img-cliente" width="260" height="auto" />
+                                </div> 
+                            ))}
+                        </Slider>
+                    </div>
             </div>
         </>
     );

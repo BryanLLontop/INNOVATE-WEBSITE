@@ -17,8 +17,7 @@ export default function Home() {
     <>     
       <CTop />
       <div className='animacionmenu'>
-          <CAnimacion menu="productos"/>
-          <CMenu menu="productos"/>
+        <CMenu menu="productos"/>
       </div>
       <CProduct />
       <CFooter2 />

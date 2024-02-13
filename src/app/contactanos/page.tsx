@@ -16,9 +16,9 @@ export default function Home() {
   return (
     <>     
       <CTop />
-      <div className='animacionmenu'>
-          <CAnimacion menu="contactanos" />
+      <div className='animacionmenu'>  
           <CMenu menu="contactanos"/>
+          <CAnimacion menu="contactanos" />
       </div>
       <CContactanos />
       <CFooter2 />

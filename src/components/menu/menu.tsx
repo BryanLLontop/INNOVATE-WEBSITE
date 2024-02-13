@@ -20,7 +20,7 @@ export default function CMenu(props:any) {
       <div className="col">
          <nav className="navbar navbar-expand-lg bg-transparent menus-top no-padding-nav">
             <div className="container">
-               <a className="navbar-brand" href="./"><img style={{ width: '100px', height: 'auto' }} className="img-icon-logo img-fluid" src="/images/logo.png"/></a>
+               <a className="navbar-brand" href="./"><img style={{ width: '100px', height: '60PX' }} className="img-icon-logo img-fluid" src="/images/logo.png" alt="innovate_cix"/></a>
                <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
                   <div className="hamburger-toggle">
                      <div className="hamburger">

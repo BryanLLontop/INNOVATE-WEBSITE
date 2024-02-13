@@ -20,9 +20,9 @@ export default function CTop(props:any) {
         <div className="row">
           <div className="text-center text-md-start col-sm-12 col-md-6 txttop">
           <a href={`mailto:${dataInfo.correo}`} style={{ color: 'inherit', textDecoration: 'none', padding: '5px', borderRadius: '5px' }}>
-            <i className="bi bi-envelope-at-fill"/>
+            <i className="bi bi-envelope-at-fill"/> {dataInfo.correo}
             </a>
-            {dataInfo.correo}
+            
           </div>
           <div className="text-center text-md-end col-sm-12 col-md-6 txttop">
           <CSharesocial titulo='Siguenos: '/>
