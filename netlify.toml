@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build" # Esto debe coincidir con el comando para construir tu aplicación Next.js
+  publish = ".next" # Esto debe coincidir con el directorio de construcción de Next.js

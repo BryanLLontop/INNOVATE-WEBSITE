@@ -1,0 +1,54 @@
+{
+    "inicio": [
+        {
+            "texto": "",
+            "imagen": "/proyectos/imagen1.png",
+            "href": ""
+        },
+        {
+            "texto": "",
+            "imagen": "/proyectos/imagen2.png",
+            "href": ""
+        },
+        {
+            "texto": "",
+            "imagen": "/proyectos/imagen3.png",
+            "href": ""
+        }
+    ],
+    "noticias": [
+        {
+            "texto": "Noticias",
+            "imagen": "/images/bannerpaginas/noticias.png",
+            "href": ""
+        }
+    ],
+    "proyectos": [
+        {
+            "texto": "Proyectos Disponibles",
+            "imagen": "/images/bannerpaginas/proyectos.png",
+            "href": ""
+        }
+    ],
+    "clientes": [
+        {
+            "texto": "Clientes y Auspiciadores",
+            "imagen": "/images/bannerpaginas/clientesyauspiciadores.png",
+            "href": ""
+        }
+    ],
+    "servicios": [
+        {
+            "texto": "Servicios",
+            "imagen": "/images/bannerpaginas/servicios.png",
+            "href": ""
+        }
+    ],
+    "contactanos": [
+        {
+            "texto": "Contactanos",
+            "imagen": "/images/bannerpaginas/contactanos.png",
+            "href": ""
+        }
+    ]
+}

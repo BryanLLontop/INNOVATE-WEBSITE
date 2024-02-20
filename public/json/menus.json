@@ -1,0 +1,16 @@
+{
+   "data" : [
+      {"id": 0,  "href":"/", "texto":"Inicio"
+      },
+      {"id": 1,  "href":"/proyectos",  "texto":"Proyectos", "icon":""
+      },
+      {"id": 2,  "href":"/servicios",  "texto":"Servicios", "icon":""
+      },
+      {"id": 3,  "href":"/clientes",   "texto":"Clientes/Auspiciadores", "icon":""
+      },
+      {"id": 4,  "href":"/noticias",   "texto":"Noticias", "icon":""
+      },
+      {"id": 5,  "href":"/contactanos","texto":"Contactanos", "icon":"bi bi-send","showicontop":true
+      }
+   ]
+}

@@ -1,0 +1,960 @@
+{
+  "infoinnovate": [
+    {
+      "id": "1",
+      "telefono": "+51 954 498 176",
+      "direccion": "Ca. 7 de Enero 225, Chiclayo ",
+      "correo": "mloaiza@innovate.pe",
+      "derechos": " Copyright 2024. innovate.pe",
+      "slogan": "Tecnología, IA y Nube para el Éxito Empresarial.",
+      "logofooter": "/logowhite.png"
+    }
+  ],
+  "pgcontent": [
+    {
+      "id": "1",
+      "categoria": "home",
+      "titulo": "Somos innovate",
+      "descripcion": "Innovate es una empresa especializada en la solución de problemáticas empresariales mediante el uso de la tecnología de información (TI). Nuestro equipo de profesionales altamente calificados, con amplia experiencia en el sector, se encarga de brindar soluciones a medida para cada cliente, con el objetivo de optimizar sus procesos y mejorar su rendimiento empresarial. Innovate ofrece una amplia gama de servicios, desde consultoría empresarial e informática, hasta el desarrollo de software a medida y la implementación de soluciones de inteligencia artificial (IA). Innovate es tu aliado estratégico para el éxito empresarial.",
+      "imagen": "/home.avif"
+    },
+    {
+      "id": "2",
+      "categoria": "quienessomos",
+      "titulo": "Misión",
+      "descripcion": "Nuestra misión es ayudar a las empresas a alcanzar sus metas y objetivos, a través de la implementación de soluciones tecnológicas innovadoras y eficientes. Innovate es tu aliado estratégico para el éxito empresarial.",
+      "imagen": "/quienessomos/mision.png"
+    },
+    {
+      "id": "3",
+      "categoria": "quienessomos",
+      "titulo": "Visión",
+      "descripcion": "Ser reconocidos como la empresa líder en la solución de problemáticas empresariales mediante el uso de la tecnología de información (TI), brindando soluciones a medida para cada cliente, con el objetivo de optimizar sus procesos y mejorar su rendimiento empresarial.",
+      "imagen": "/quienessomos/vision.png"
+    }
+  ],
+  "pgmenuinnovate": [
+    {
+      "id": "0",
+      "titulo": "Logo",
+      "href": "/logoinnovate.png",
+      "tipo": "logo",
+      "mostrar": false
+    },
+    {
+      "id": "1",
+      "titulo": "Inicio",
+      "href": "./",
+      "tipo": "item",
+      "mostrar": true
+    },
+    {
+      "id": "2",
+      "titulo": "¿Quiénes Somos?",
+      "href": "./quienessomos",
+      "tipo": "item",
+      "mostrar": true
+    },
+    {
+      "id": "3",
+      "titulo": "¿Qué Ofrecemos?",
+      "href": "./productos",
+      "tipo": "megaMenu",
+      "mostrar": true,
+      "submenus": "queofrecemos"
+    },
+    {
+      "id": "4",
+      "titulo": "Contáctanos",
+      "href": "./contactanos",
+      "tipo": "item",
+      "mostrar": true
+    }
+  ],
+  "pgsubmenus": [
+    {
+      "megamenu": "queofrecemos",
+      "titulo": "Productos",
+      "titulodestacado": " Productos Destacados",
+      "textodestacado": "Potencia tu empresa con nuestra suite de soluciones empresariales.",
+      "imgdestacados": "/products/productosdestacados.avif",
+      "data": "pgproductos",
+      "id": "39c0"
+    },
+    {
+      "megamenu": "queofrecemos",
+      "titulo": "Servicios",
+      "titulodestacado": " Servicios Destacados",
+      "textodestacado": "Descubre cómo nuestra combinación de consultoría empresarial y desarrollo de software puede llevar tu empresa al siguiente nivel.",
+      "imgdestacados": "/services/serviciosdestacados.avif",
+      "data": "pgservicios",
+      "id": "0c8a"
+    }
+  ],
+  "pgproductos": [
+    {
+      "id": "1",
+      "nombre": "ERP",
+      "titulo": "Implementación de ERP",
+      "href": "./productos",
+      "img": "/products/producto1.png",
+      "descripcion": "La implementación de ERP es la integración de procesos empresariales en un sistema de software único. Ayuda a gestionar eficientemente recursos como finanzas, inventario y recursos humanos, optimizando operaciones y facilitando decisiones basadas en datos en tiempo real."
+    },
+    {
+      "id": "2",
+      "nombre": "CRM",
+      "titulo": "Implementación de CRM",
+      "img": "/products/producto2.png",
+      "descripcion": "La Implementación de CRM (Customer Relationship Management) optimiza la gestión de relaciones con los clientes mediante software especializado. Mejora la satisfacción del cliente, impulsa las ventas y personaliza las experiencias para el crecimiento del negocio."
+    },
+    {
+      "id": "3",
+      "nombre": "BI",
+      "titulo": "Implementación de BI",
+      "href": "./productos",
+      "img": "/products/producto3.png",
+      "descripcion": "La Implementación de Business Intelligence (BI) consiste en el uso de herramientas y procesos para analizar datos empresariales y convertirlos en información significativa. Permite tomar decisiones más informadas y estratégicas, identificar tendencias y oportunidades, y mejorar el rendimiento empresarial."
+    },
+    {
+      "id": "4",
+      "nombre": "IA",
+      "titulo": "Implementación de IA",
+      "href": "./productos",
+      "img": "/products/producto4.png",
+      "descripcion": "La Inteligencia Artificial (IA) se refiere a la capacidad de las máquinas para realizar tareas que normalmente requieren inteligencia humana. Utiliza algoritmos y modelos de aprendizaje para procesar datos, tomar decisiones, y resolver problemas de manera autónoma."
+    }
+  ],
+  "pgservicios": [
+    {
+      "id": "1",
+      "nombre": "Consultoría Empresarial e Informática",
+      "href": "./servicios",
+      "img": "/services/servicio1.png",
+      "descripcion": "Innovate realiza el diagnóstico de la actualidad de su empresa, luego basado en nuestra experiencia en el sector y en el uso de las tecnologías de información, proponemos rediseños a los procesos, adquisiciones de tencología y desarrollos de software que brinden a su negocio las herramientas tecnológicas que aseguren el logro de sus metas."
+    },
+    {
+      "id": "2",
+      "nombre": "Software a medida",
+      "href": "./servicios",
+      "img": "/services/servicio2.png",
+      "descripcion": "Innovate se caracteriza por personalizar nuestras aplicaciones de software de acuerdo a las necesidades y expectativas del cliente. Contamos con amplia experiencia en el desarrollo de aplicaciones para el sector comercial, educativo, salud, gastronómico, hotelería, de servicios, productivo, entre otros. Nuestro personal analizará la situación actual de su empresa para lograr un diagnóstico situacional, luego de lo cual formulará propuestas para mejorar las cuales serán validadas por usted, y finalmente adecuar nuestra solución de software a su nuevo modelo de negocio, logrando su empresa el máximo rendimiento."
+    },
+    {
+      "id": "3",
+      "nombre": "Fábrica de Software",
+      "href": "./servicios",
+      "img": "/services/servicio3.png",
+      "descripcion": "Nuestra Fábrica de Software es el núcleo donde la innovación cobra vida. Desarrollamos soluciones a medida que se adaptan a las necesidades únicas de tu empresa. Con un equipo altamente calificado de ingenieros y desarrolladores, trabajamos en colaboración contigo para transformar tus ideas en soluciones tecnológicas robustas y eficientes."
+    }
+  ],
+  "pgsliderinnov": [
+    {
+      "id": "1",
+      "categoria": "inicio",
+      "imagen": "/slider/inicio1.png",
+      "texto": "Fábrica de Software de Vanguardia",
+      "subtexto": "Innovamos en el corazón de la tecnología, desarrollando soluciones a medida para tu éxito."
+    },
+    {
+      "id": "2",
+      "categoria": "inicio",
+      "imagen": "/slider/inicio2.png",
+      "texto": "Consultoría Especializada",
+      "subtexto": "Ofrecemos asesoramiento estratégico para optimizar tus procesos mediante la tecnología"
+    },
+    {
+      "id": "3",
+      "categoria": "inicio",
+      "imagen": "/slider/inicio3.png",
+      "texto": "Desarrollo a Medida",
+      "subtexto": "Creamos aplicaciones personalizadas que se adaptan a las necesidades únicas de tu empresa"
+    },
+    {
+      "id": "4",
+      "categoria": "quienessomos",
+      "imagen": "/slider/quienessomos1.png",
+      "texto": "Quiénes Somos",
+      "subtexto": "Somos una empresa con amplia experiencia en la solución de problemáticas empresariales mediante el uso de la tecnología de información (TI)"
+    },
+    {
+      "id": "5",
+      "categoria": "contactanos",
+      "imagen": "/slider/contactanos.png",
+      "texto": "Comunícate con Nosotros",
+      "subtexto": "Déjanos tu consulta. Pronto nos pondremos en contácto con usted."
+    }
+  ],
+  "sliderinnovate": [
+    {
+      "id": "1",
+      "inicio": [
+        {
+          "texto": "Fábrica de Software de Vanguardia",
+          "imagen": "/slider/inicio1.png",
+          "href": "",
+          "subtexto": "Innovamos en el corazón de la tecnología, desarrollando soluciones a medida para tu éxito."
+        },
+        {
+          "texto": "Consultoría Especializada",
+          "imagen": "/slider/inicio2.png",
+          "href": "",
+          "subtexto": "Ofrecemos asesoramiento estratégico para optimizar tus procesos mediante la tecnología."
+        },
+        {
+          "texto": "Desarrollo a Medida",
+          "imagen": "/slider/inicio3.png",
+          "href": "",
+          "subtexto": "Creamos aplicaciones personalizadas que se adaptan a las necesidades únicas de tu empresa."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "quienessomos": [
+        {
+          "texto": "Quiénes Somos",
+          "imagen": "/slider/quienessomos1.png",
+          "href": "",
+          "subtexto": "Somos una empresa con amplia experiencia en la solución de problemáticas empresariales mediante el uso de la tecnología de información (TI)."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "proyectos": [
+        {
+          "texto": "",
+          "imagen": "/slider/proyectos1.png",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "productos": [
+        {
+          "texto": "",
+          "imagen": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "servicios": [
+        {
+          "texto": "",
+          "imagen": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "clientes": [
+        {
+          "texto": "",
+          "imagen": "/slider/clientes1.png",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "contactanos": [
+        {
+          "texto": "Comunícate con Nosotros",
+          "imagen": "/slider/contactanos.png",
+          "href": "",
+          "subtexto": "Déjanos tu consulta. Pronto nos pondremos en contácto con usted."
+        }
+      ]
+    }
+  ],
+  "pgclientesinnovate": [
+    {
+      "id": "1",
+      "titulo": "IPAE",
+      "texto": "prueba",
+      "imagen": "/clientes/1.png",
+      "estado": true
+    },
+    {
+      "id": "2",
+      "titulo": "Electro Dunas",
+      "imagen": "/clientes/2.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "3",
+      "titulo": "Americatel",
+      "imagen": "/clientes/3.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "4",
+      "titulo": "AESA",
+      "imagen": "/clientes/4.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "5",
+      "titulo": "AGRICONSULTING",
+      "imagen": "/clientes/5.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "6",
+      "titulo": "VERATIA",
+      "imagen": "/clientes/6.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "7",
+      "titulo": "ConTuGas",
+      "imagen": "/clientes/7.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "8",
+      "titulo": "Luz Del Sur",
+      "imagen": "/clientes/8.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "9",
+      "titulo": "Intralot",
+      "imagen": "/clientes/9.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "10",
+      "titulo": "Hidrandina",
+      "imagen": "/clientes/10.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "11",
+      "titulo": "Electronorte",
+      "imagen": "/clientes/11.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "12",
+      "titulo": "Enosa",
+      "imagen": "/clientes/12.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "13",
+      "titulo": "SUSALUD",
+      "imagen": "/clientes/13.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "14",
+      "titulo": "MINCETUR",
+      "imagen": "/clientes/14.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "15",
+      "titulo": "MEF",
+      "imagen": "/clientes/15.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "16",
+      "titulo": "INGEMMET",
+      "imagen": "/clientes/16.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "17",
+      "titulo": "Electro Ucayali",
+      "imagen": "/clientes/17.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "18",
+      "titulo": "Servir",
+      "imagen": "/clientes/18.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "19",
+      "titulo": "Indecopi",
+      "imagen": "/clientes/19.png",
+      "estado": true,
+      "texto": ""
+    },
+    {
+      "id": "20",
+      "titulo": "Osinergmin",
+      "imagen": "/clientes/20.png",
+      "estado": true,
+      "texto": ""
+    }
+  ],
+  "noticias": [
+    {
+      "id": "1",
+      "categoria": "Tecnología",
+      "titulo": "WhatsApp Plus Rojo: Descarga la última versión del APK de noviembre 2023",
+      "descripcion": "WhatsApp Plus se ha convertido en una de las aplicaciones no oficiales más utilizadas. Por ello, el APK ha realizado una nueva versión Red que brindará muchos beneficios a todos sus usuarios.<br />  El WhatsApp Plus Red cuenta funciones muy novedosas. Si quieres descargar este app no oficial en tu celular, entonces tienes que revisar las próximas líneas,  porque conocerás los simples pasos que debes seguir.<br /><br /> <h1>WhatsApp Plus Red: ¿Cuáles son las novedosas funciones?</h1><br />  Este WhastApp Plus Red cuenta con muchas novedades.  A continuación, te diremos un listado de las diferentes herramientas que posee este APK.<br /><br /> 1) Los usuarios pueden personalizar sus chats. No tienen muchos anuncios <br />2) Los colores de su interfaz <br />puedes cambiarlo a diferentes colores  3) Tiene una barra de navegación.<br /> 4) Se puede visualizar si tus amigos están conectados y a qué hora utilizaron el app.<br />5)Sabrás quién cambió su foto de perfil. ",
+      "usuario": "admin",
+      "fecha_publicacion": "10/10/2023",
+      "numero_comentarios": 1,
+      "imagen": "./images/noticia1.png"
+    },
+    {
+      "id": "2",
+      "categoria": "Tecnología",
+      "titulo": "WhatsApp Plus Rojo: Descarga la última versión del APK de noviembre 2023",
+      "descripcion": "WhatsApp Plus se ha convertido en una de las aplicaciones no oficiales más utilizadas. Por ello, el APK ha realizado una nueva versión Red que brindará muchos beneficios a todos sus usuarios.<br />  El WhatsApp Plus Red cuenta funciones muy novedosas. Si quieres descargar este app no oficial en tu celular, entonces tienes que revisar las próximas líneas,  porque conocerás los simples pasos que debes seguir.<br /><br /> <h1>WhatsApp Plus Red: ¿Cuáles son las novedosas funciones?</h1><br />  Este WhastApp Plus Red cuenta con muchas novedades.  A continuación, te diremos un listado de las diferentes herramientas que posee este APK.<br /><br /> 1) Los usuarios pueden personalizar sus chats. No tienen muchos anuncios <br />2) Los colores de su interfaz <br />puedes cambiarlo a diferentes colores  3) Tiene una barra de navegación.<br /> 4) Se puede visualizar si tus amigos están conectados y a qué hora utilizaron el app.<br />5)Sabrás quién cambió su foto de perfil.",
+      "usuario": "admin",
+      "fecha_publicacion": "10/11/2022",
+      "numero_comentarios": 1,
+      "imagen": "./images/noticia2.png"
+    },
+    {
+      "id": "3",
+      "categoria": "Tecnología",
+      "titulo": "WhatsApp Plus Rojo: Descarga la última versión del APK de noviembre 2023",
+      "descripcion": "WhatsApp Plus se ha convertido en una de las aplicaciones no oficiales más utilizadas. Por ello, el APK ha realizado una nueva versión Red que brindará muchos beneficios a todos sus usuarios.<br />  El WhatsApp Plus Red cuenta funciones muy novedosas. Si quieres descargar este app no oficial en tu celular, entonces tienes que revisar las próximas líneas,  porque conocerás los simples pasos que debes seguir.<br /><br /> <h1>WhatsApp Plus Red: ¿Cuáles son las novedosas funciones?</h1><br />  Este WhastApp Plus Red cuenta con muchas novedades.  A continuación, te diremos un listado de las diferentes herramientas que posee este APK.<br /><br /> 1) Los usuarios pueden personalizar sus chats. No tienen muchos anuncios <br />2) Los colores de su interfaz <br />puedes cambiarlo a diferentes colores  3) Tiene una barra de navegación.<br /> 4) Se puede visualizar si tus amigos están conectados y a qué hora utilizaron el app.<br />5)Sabrás quién cambió su foto de perfil.",
+      "usuario": "user",
+      "fecha_publicacion": "11/08/2023",
+      "numero_comentarios": 2,
+      "imagen": "./images/noticia3.png"
+    }
+  ],
+  "publicidad": [
+    {
+      "id": "1",
+      "titulo": "-",
+      "imagen": "./images/publicidad/1.png",
+      "url": "./",
+      "fecha_publicacion": "10/10/2023"
+    },
+    {
+      "id": "2",
+      "titulo": "-",
+      "imagen": "./images/publicidad/2.png",
+      "url": "./Rutadeejemplo",
+      "fecha_publicacion": "10/10/2023"
+    }
+  ],
+  "proyectos": [
+    {
+      "id": "15",
+      "titulo": "Altamira Residencial",
+      "descripcion": "Nuestras viviendas serán construidas con materiales nobles y sólidos. Este tipo de construcción permite que tu hogar sea fuerte y perdurable. Trabajamos con estructuras que permiten modificar la casa de acuerdo a tus necesidades.",
+      "href": "https://gammaurbana.com",
+      "image": "/images/proyectos/altamiraresidencial.png",
+      "direccion": "Reque",
+      "departamento": "Lambayeque",
+      "numerovistas": 101,
+      "destacado": true,
+      "parques": true,
+      "jardines": true,
+      "luz": true,
+      "agua": true,
+      "pistas": true,
+      "veredas": true,
+      "lotesdesdem2": "90 m2",
+      "fecha_registro": "10/10/2023"
+    },
+    {
+      "id": "1",
+      "descripcion": "Condominio privado con todos los servicios básicos incluidos, obras finalizadas y listo para construir, ubicado en la zona más exclusiva y segura de todo Chiclayo",
+      "href": "https://www.facebook.com/ProcasaNorte",
+      "image": "/images/proyectos/villasipan.png",
+      "titulo": "Club Privado Villa Sípan",
+      "direccion": "Pimentel",
+      "departamento": "Lambayeque",
+      "numerovistas": 80,
+      "destacado": true,
+      "parques": true,
+      "jardines": true,
+      "luz": true,
+      "agua": true,
+      "pistas": true,
+      "veredas": true,
+      "lotesdesdem2": "90 m2",
+      "fecha_registro": "01/12/2023"
+    },
+    {
+      "id": "2",
+      "descripcion": "Proyecto de Habilitación Urbana con todos los servicios básicos incluidos, ubicado en la zona más exclusiva y segura de todo Chiclayo.",
+      "href": "https://www.facebook.com/ProcasaNorte",
+      "image": "/images/proyectos/contryclub.png",
+      "titulo": "Garza Blanca Country Club",
+      "direccion": "Pimentel",
+      "departamento": "Lambayeque",
+      "numerovistas": 99,
+      "destacado": true,
+      "parques": true,
+      "jardines": true,
+      "luz": true,
+      "agua": true,
+      "pistas": true,
+      "veredas": true,
+      "lotesdesdem2": "90 m2",
+      "fecha_registro": "01/12/2023"
+    },
+    {
+      "id": "3",
+      "titulo": "Villa Bonita Urbanización",
+      "descripcion": "Descubra la vida de ensueño en Villa Bonita Urbanización, ubicada en Chiclayo. Con precios a partir de S/85,500 y terrenos desde 90 m2.",
+      "href": "https://www.facebook.com/InmobiliariayConstructoraVillaAstonSAC/",
+      "image": "/images/proyectos/1.jpg",
+      "direccion": "Chiclayo",
+      "departamento": "Lambayeque",
+      "numerovistas": 1,
+      "destacado": false,
+      "parques": true,
+      "jardines": true,
+      "luz": true,
+      "agua": true,
+      "pistas": true,
+      "veredas": true,
+      "lotesdesdem2": "90 m2",
+      "fecha_registro": "10/10/2023"
+    },
+    {
+      "id": "4",
+      "titulo": "Villa Guatapé",
+      "descripcion": "Descubre Villa Guatapé, tu oasis de tranquilidad a solo 10 minutos de Reque. Terrenos desde S/6,000 con servicios completos, parques y diversión para toda la familia. ¡Tu hogar ideal te espera!",
+      "href": "https://www.facebook.com/YaencontreInmobiliaria/",
+      "image": "/images/proyectos/4.jpg",
+      "direccion": "10 minutos de Reque",
+      "departamento": "Lambayeque",
+      "numerovistas": 1,
+      "destacado": false,
+      "parques": true,
+      "jardines": true,
+      "luz": true,
+      "agua": true,
+      "pistas": true,
+      "veredas": true,
+      "lotesdesdem2": "90 m2",
+      "fecha_registro": "01/05/2023"
+    }
+  ],
+  "pginformacion": [
+    {
+      "id": "1",
+      "content": "<p class=\"ql-align-justify\"><span style=\"background-color: transparent;\">¡Hola! Somos Garza Blanca, una inmobiliaria dedicada a la creación de entornos residenciales exclusivos en las zonas más exclusivas de Chiclayo, Lambayeque. Desde nuestra fundación en 2017, nos destacamos por ofrecer un nuevo estándar de vida a través de proyectos inmobiliarios innovadores. Nos enfocamos en diseñar espacios que integren la naturaleza, la seguridad y la tranquilidad, añadiendo valor a nuestros proyectos con áreas verdes, parques infantiles, piscinas y más.</span></p><p class=\"ql-align-justify\"><span style=\"background-color: transparent;\">Nuestros valores definen nuestro compromiso con el bienestar de la familia. Estamos aquí para ofrecerte lotes que se conviertan en el escenario perfecto para tus sueños y tu estilo de vida. Un proyecto urbanístico de primera categoría donde la exclusividad se fusiona con la seguridad y la tranquilidad. </span></p><ul><li>Ofrecemos los siguientes servicios básicos:</li></ul>",
+      "recurso1": "/images/icons/imagen1.png,/images/icons/imagen2.png,/images/icons/imagen3.png",
+      "recurso2": "https://drive.google.com/file/d/12bUOKbp-6iwDHwLxaiSUWL6-hmVdIOSP/preview",
+      "categoria": "informacion",
+      "title": "Titulo para Editar"
+    },
+    {
+      "id": "2",
+      "title": "Luz",
+      "categoria": "timeline",
+      "content": "Texto para Timeline Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis-mod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accum- san et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+      "recurso1": "",
+      "recurso2": ""
+    },
+    {
+      "title": "Luz",
+      "categoria": "empresa",
+      "recurso1": "",
+      "recurso2": "",
+      "content": "<p class=\"ql-align-justify\"><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">¡Hola! Somos Procasa Norte, una inmobiliaria dedicada a la creación de entornos residenciales exclusivos en las zonas más exclusivas de Chiclayo, Lambayeque. Desde nuestra fundación en 2017, nos destacamos por ofrecer un nuevo estándar de vida a través de proyectos inmobiliarios innovadores. Nos enfocamos en diseñar espacios que integren la naturaleza, la seguridad y la tranquilidad, añadiendo valor a nuestros proyectos con áreas verdes, parques infantiles, piscinas y más.</span></p><p class=\"ql-align-justify\"><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">Nuestros valores definen nuestro compromiso con el bienestar de la familia. Estamos aquí para ofrecerte lotes que se conviertan en el escenario perfecto para tus sueños y tu estilo de vida. ¡Bienvenidos a Procasa Norte!</span></p><p><br></p>",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "title": "Luz",
+      "categoria": "plano",
+      "content": "Texto para la pagina Empresa dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis-mod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accum- san et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+      "recurso1": "https://i.pinimg.com/736x/9b/72/f5/9b72f5689a0eff59b0364ceab387d301.jpg",
+      "recurso2": "https://i.pinimg.com/originals/cc/73/8c/cc738cae38d0ee917631a371de80443a.jpg"
+    }
+  ],
+  "pgempresa": [
+    {
+      "title": "Misión",
+      "content": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">En Procasa Norte Chiclayo SAC, nos dedicamos a transformar la calidad de vivienda a través de nuestros proyectos inmobiliarios. Nuestro compromiso es ofrecer a cada familia un nuevo y exclusivo estándar de vida, creando entornos que integren la naturaleza, seguridad y tranquilidad, adaptados a los anhelos y necesidades de cada hogar</span></p>",
+      "id": "1"
+    },
+    {
+      "title": "Visión",
+      "content": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Nos proyectamos como líderes en el desarrollo inmobiliario de las zonas más exclusivas de Chiclayo, destacándonos por la excelencia en la creación de proyectos inmobiliarios modernos, con estándares de calidad superiores. Aspiramos a ser reconocidos por nuestro compromiso con la innovación, la sostenibilidad y la satisfacción de nuestros clientes, convirtiendo a Procasa Norte Chiclayo SAC en sinónimo de hogares de prestigio y bienestar familiar</span></p>",
+      "id": "2"
+    }
+  ],
+  "pgubicaciongb": [
+    {
+      "id": "1",
+      "boton1": "¿Cómo llegar?",
+      "ruta1": "https://www.google.com/maps/dir//Garza+Blanca+Country+Club+Pimentel+14000/@-6.7949956,-79.8953896,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x904cefda99af3ee9:0xd0f78f7cd563d5fe",
+      "boton2": "Google Maps",
+      "ruta2": "Frente al Club House",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d990.4479599967417!2d-79.89531449815291!3d-6.795163392199661!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904cefda99af3ee9%3A0xd0f78f7cd563d5fe!2sGarza%20Blanca%20Country%20Club!5e0!3m2!1ses!2spe!4v1705089803944!5m2!1ses!2spe",
+      "titulo": "Conoce nuestra ubicación"
+    }
+  ],
+  "pgcontactame": [
+    {
+      "id": "1",
+      "nombre": "jonatan",
+      "apellidos": "Monsalve",
+      "dni": "73077840",
+      "celular": "958454982",
+      "correo": "ati73077401@gmail.com"
+    },
+    {
+      "id": "2",
+      "nombre": "Juan",
+      "apellidos": "Carlos Fernandez",
+      "dni": "16525489",
+      "celular": "97847451",
+      "correo": "juanca@gmail.com"
+    },
+    {
+      "id": "3",
+      "nombre": "lucinana",
+      "apellidos": "Vera Perez",
+      "dni": "16849577",
+      "celular": "976584563",
+      "correo": "luvera@gmail.com"
+    },
+    {
+      "id": "4",
+      "nombre": "Juana",
+      "apellidos": "Del Arco",
+      "dni": "16525899",
+      "celular": "978454966",
+      "correo": "juanarco@gmail.com"
+    }
+  ],
+  "pgslidergb": [
+    {
+      "id": "IA01",
+      "titulo": "Garza Blanca",
+      "subtitulo": "Te damos la bienvenida al gran Country Club",
+      "categoria": "informacion",
+      "imagen": "/images/icons/bannerprincipal.png",
+      "href": "https://drive.google.com/file/d/1PQu-sPMaYC6RHjsY3UY_6LKEQMUY_E0n/preview"
+    },
+    {
+      "id": "UA01",
+      "titulo": "",
+      "subtitulo": "Ubicacion",
+      "categoria": "ubicacion",
+      "imagen": "/images/bannerpaginas/noticias.png",
+      "href": ""
+    },
+    {
+      "id": "PA01",
+      "titulo": "",
+      "subtitulo": "Plano",
+      "categoria": "plano",
+      "imagen": "/images/bannerpaginas/proyectos.png",
+      "href": ""
+    },
+    {
+      "id": "TA01",
+      "titulo": "",
+      "subtitulo": "Timeline",
+      "categoria": "timeline",
+      "imagen": "/images/bannerpaginas/clientesyauspiciadores.png",
+      "href": ""
+    },
+    {
+      "id": "EA01",
+      "titulo": "",
+      "subtitulo": "Empresa",
+      "categoria": "empresa",
+      "imagen": "/images/bannerpaginas/servicios.png",
+      "href": "https://drive.google.com/file/d/1PQu-sPMaYC6RHjsY3UY_6LKEQMUY_E0n/preview"
+    }
+  ],
+  "pgmenuvs": [
+    {
+      "id": "1",
+      "href": "/images/icons/villasipanlogo.png",
+      "texto": "Logo"
+    },
+    {
+      "id": "2",
+      "href": "/informacion",
+      "texto": "Informacion"
+    },
+    {
+      "id": "3",
+      "href": "/ubicacion",
+      "texto": "Ubicacion"
+    },
+    {
+      "id": "4",
+      "href": "/plano",
+      "texto": "Plano"
+    },
+    {
+      "id": "5",
+      "href": "/timeline",
+      "texto": "TimeLine"
+    },
+    {
+      "id": "6",
+      "href": "/empresa",
+      "texto": "Empresa"
+    }
+  ],
+  "pgserviciosvs": [
+    {
+      "id": "1",
+      "categoria": "informacion",
+      "titulo": "Agua",
+      "texto": "",
+      "estado": true,
+      "imagen": "/images/icons/agua.png"
+    },
+    {
+      "id": "2",
+      "categoria": "informacion",
+      "titulo": "Luz",
+      "texto": "informacion",
+      "estado": true,
+      "imagen": "/images/icons/sol.png"
+    },
+    {
+      "id": "3",
+      "titulo": "Desague",
+      "texto": "ubicacion",
+      "categoria": "informacion",
+      "estado": true,
+      "imagen": "/images/icons/desague.png"
+    },
+    {
+      "id": "4",
+      "categoria": "informacion",
+      "titulo": "Club",
+      "texto": "Plano",
+      "estado": true,
+      "imagen": "/images/icons/clubs.png"
+    },
+    {
+      "id": "5",
+      "categoria": "informacion",
+      "titulo": "Cerco Perimétrico",
+      "texto": "TimeLine",
+      "estado": true,
+      "imagen": "/images/icons/cerco.png"
+    },
+    {
+      "id": "6",
+      "categoria": "informacion",
+      "titulo": "Agua",
+      "texto": "Empresa",
+      "estado": true,
+      "imagen": "/images/icons/agua.png"
+    },
+    {
+      "id": "7",
+      "categoria": "informacion",
+      "titulo": "Luz",
+      "texto": "Empresa",
+      "estado": true,
+      "imagen": "/images/icons/sol.png"
+    },
+    {
+      "id": "8",
+      "categoria": "informacion",
+      "titulo": "Desague",
+      "texto": "Empresa",
+      "estado": true,
+      "imagen": "/images/icons/desague.png"
+    },
+    {
+      "id": "9",
+      "categoria": "informacion",
+      "titulo": "Club",
+      "texto": "Empresa",
+      "estado": true,
+      "imagen": "/images/icons/clubs.png"
+    },
+    {
+      "id": "10",
+      "categoria": "informacion",
+      "titulo": "Cerco Perimétrico",
+      "texto": "Empresa",
+      "estado": true,
+      "imagen": "/images/icons/cerco.png"
+    },
+    {
+      "id": "11",
+      "categoria": "ubicacion",
+      "titulo": "Video Atlas",
+      "texto": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu",
+      "estado": "Dato Ubicación 01",
+      "imagen": "/images/icons/cerco.png"
+    },
+    {
+      "id": "12",
+      "categoria": "ubicacion",
+      "titulo": "Video Atlas2",
+      "texto": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu",
+      "estado": "Dato Ubicación 02",
+      "imagen": "/images/icons/cerco.png"
+    },
+    {
+      "id": "13",
+      "categoria": "ubicacion",
+      "titulo": "Video Documental",
+      "texto": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu",
+      "estado": "Dato Ubicación 03",
+      "imagen": "/images/icons/cerco.png"
+    }
+  ],
+  "pgbannervs": [
+    {
+      "id": "IA01",
+      "titulo": "Garza Blanca",
+      "subtitulo": "Te damos la bienvenida al gran Country Club",
+      "categoria": "informacion",
+      "imagen": "/images/icons/bannerprincipalvs.png",
+      "href": "https://drive.google.com/file/d/1PQu-sPMaYC6RHjsY3UY_6LKEQMUY_E0n/preview"
+    },
+    {
+      "id": "UA01",
+      "titulo": "",
+      "subtitulo": "Ubicacion",
+      "categoria": "ubicacion",
+      "imagen": "/images/icons/bannerprincipalvs.png",
+      "href": ""
+    },
+    {
+      "id": "PA01",
+      "titulo": "",
+      "subtitulo": "Plano",
+      "categoria": "plano",
+      "imagen": "/images/icons/bannerprincipalvs.png",
+      "href": ""
+    },
+    {
+      "id": "TA01",
+      "titulo": "",
+      "subtitulo": "Timeline",
+      "categoria": "timeline",
+      "imagen": "/images/icons/bannerprincipalvs.png",
+      "href": ""
+    },
+    {
+      "id": "EA01",
+      "titulo": "",
+      "subtitulo": "Empresa",
+      "categoria": "empresa",
+      "imagen": "/images/icons/bannerprincipalvs.png",
+      "href": "https://drive.google.com/file/d/1PQu-sPMaYC6RHjsY3UY_6LKEQMUY_E0n/preview"
+    }
+  ],
+  "pginformacionvs": [
+    {
+      "id": "1",
+      "content": "<ol><li class=\"ql-align-justify\"><span style=\"background-color: transparent;\">Club Privado Villa Sipán, un proyecto residencial exclusivo y privado, garantizando total seguridad gracias a su cerco perimétrico de concreto. Con todas las obras finalizadas, este proyecto permite comenzar la construcción de su hogar de forma inmediata, brindándole la oportunidad de materializar su visión sin demora. Ubicado estrátegicamente, Villa Sipán se sitúa en una zona exclusiva, a espaldas de la Universidad Señor de Sipán y al lado de la urbanización La Ensenada. Ofrecemos lotes disponibles desde </span>90m²&nbsp;y opciones más amplias de 120m². Además, reafirmamos nuestro compromiso con la seguridad jurídica al entregar cada lote con Título de Propiedad registrado en Registros Públicos (SUNARP) de manera INMEDIATA y a sola firma<span style=\"color: var(--bs-card-color); background-color: transparent;\">. </span></li></ol><ul><li>Ofrecemos los siguientes servicios básicos:</li></ul>",
+      "recurso1": "/images/icons/imagen1vs.jpg,/images/icons/imagen2vs.png,/images/icons/imagen3vs.png",
+      "recurso2": "https://drive.google.com/file/d/1b64Shp9da4q5K4sorIMvIRwfxLFzGbAB/preview",
+      "categoria": "informacion",
+      "title": "Titulo para Editar"
+    },
+    {
+      "id": "2",
+      "title": "Luz",
+      "categoria": "timeline",
+      "content": "Texto para Timeline Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis-mod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accum- san et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+      "recurso1": "",
+      "recurso2": ""
+    },
+    {
+      "id": "3",
+      "title": "Luz",
+      "categoria": "empresa",
+      "content": "Texto para la pagina Empresa dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis-mod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accum- san et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+      "recurso1": "https://i.pinimg.com/736x/9b/72/f5/9b72f5689a0eff59b0364ceab387d301.jpg",
+      "recurso2": "https://i.pinimg.com/originals/cc/73/8c/cc738cae38d0ee917631a371de80443a.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Luz",
+      "categoria": "plano",
+      "content": "Texto para la pagina Empresa dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis-mod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accum- san et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+      "recurso1": "https://i.pinimg.com/736x/9b/72/f5/9b72f5689a0eff59b0364ceab387d301.jpg",
+      "recurso2": "https://i.pinimg.com/originals/cc/73/8c/cc738cae38d0ee917631a371de80443a.jpg"
+    }
+  ],
+  "pgubicacionvs": [
+    {
+      "id": "1",
+      "boton1": "¿Cómo llegar?",
+      "ruta1": "https://www.google.com/maps/dir//Garza+Blanca+Country+Club+Pimentel+14000/@-6.7949956,-79.8953896,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x904cefda99af3ee9:0xd0f78f7cd563d5fe",
+      "boton2": "Google Maps",
+      "ruta2": "Villa Sipan",
+      "iframe": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d990.4479599967417!2d-79.89531449815291!3d-6.795163392199661!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904cefda99af3ee9%3A0xd0f78f7cd563d5fe!2sGarza%20Blanca%20Country%20Club!5e0!3m2!1ses!2spe!4v1705089803944!5m2!1ses!2spe",
+      "titulo": "Conoce nuestra ubicación"
+    }
+  ],
+  "pgempresavs": [
+    {
+      "title": "Misión",
+      "content": "<p>Garza Blanca Country Club, un proyecto urbanístico de primera categoría donde la exclusividad se fusiona con la seguridad y la tranquilidad. Ofrecemos todos los servicios básicos como luz, agua, desagüe, además de veredas y pistas.</p><p>Ubicado estratégicamente en la zona más prestigiosa de Chiclayo, Garza Blanca se encuentra rodeado de urbanizaciones selectas y a pasos de la reconocida Universidad Señor de Sipán. Contamos con lotes disponibles a partir de 90m², 120m² y más.</p>",
+      "id": "1"
+    }
+  ],
+  "pgcontactamevs": [
+    {
+      "id": "1",
+      "nombre": "jonatan",
+      "apellidos": "Monsalve",
+      "dni": "73077840",
+      "celular": "958454982",
+      "correo": "ati73077401@gmail.com"
+    },
+    {
+      "id": "2",
+      "nombre": "Juan",
+      "apellidos": "Carlos Fernandez",
+      "dni": "16525489",
+      "celular": "97847451",
+      "correo": "juanca@gmail.com"
+    },
+    {
+      "id": "3",
+      "nombre": "lucinana",
+      "apellidos": "Vera Perez",
+      "dni": "16849577",
+      "celular": "976584563",
+      "correo": "luvera@gmail.com"
+    },
+    {
+      "id": "4",
+      "nombre": "Juana",
+      "apellidos": "Del Arco",
+      "dni": "16525899",
+      "celular": "978454966",
+      "correo": "juanarco@gmail.com"
+    }
+  ]
+}

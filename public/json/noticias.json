@@ -1,0 +1,34 @@
+{
+   "noticias":[
+      {
+         "id":"1",
+         "categoria":"Tecnología",
+         "titulo":"WhatsApp Plus Rojo: Descarga la última versión del APK de noviembre 2023",
+         "descripcion":"WhatsApp Plus se ha convertido en una de las aplicaciones no oficiales más utilizadas. Por ello, el APK ha realizado una nueva versión Red que brindará muchos beneficios a todos sus usuarios.<br />  El WhatsApp Plus Red cuenta funciones muy novedosas. Si quieres descargar este app no oficial en tu celular, entonces tienes que revisar las próximas líneas,  porque conocerás los simples pasos que debes seguir.<br /><br /> <h1>WhatsApp Plus Red: ¿Cuáles son las novedosas funciones?</h1><br />  Este WhastApp Plus Red cuenta con muchas novedades.  A continuación, te diremos un listado de las diferentes herramientas que posee este APK.<br /><br /> 1) Los usuarios pueden personalizar sus chats. No tienen muchos anuncios <br />2) Los colores de su interfaz <br />puedes cambiarlo a diferentes colores  3) Tiene una barra de navegación.<br /> 4) Se puede visualizar si tus amigos están conectados y a qué hora utilizaron el app.<br />5)Sabrás quién cambió su foto de perfil. ",
+         "usuario": "admin",
+         "fecha_publicacion":"10/10/2023",
+         "numero_comentarios":1,
+         "imagen":"./images/noticia1.png"
+      },
+      {
+         "id": "2",
+         "categoria": "Tecnología",
+         "titulo": "WhatsApp Plus Rojo: Descarga la última versión del APK de noviembre 2023",
+         "descripcion":"WhatsApp Plus se ha convertido en una de las aplicaciones no oficiales más utilizadas. Por ello, el APK ha realizado una nueva versión Red que brindará muchos beneficios a todos sus usuarios.<br />  El WhatsApp Plus Red cuenta funciones muy novedosas. Si quieres descargar este app no oficial en tu celular, entonces tienes que revisar las próximas líneas,  porque conocerás los simples pasos que debes seguir.<br /><br /> <h1>WhatsApp Plus Red: ¿Cuáles son las novedosas funciones?</h1><br />  Este WhastApp Plus Red cuenta con muchas novedades.  A continuación, te diremos un listado de las diferentes herramientas que posee este APK.<br /><br /> 1) Los usuarios pueden personalizar sus chats. No tienen muchos anuncios <br />2) Los colores de su interfaz <br />puedes cambiarlo a diferentes colores  3) Tiene una barra de navegación.<br /> 4) Se puede visualizar si tus amigos están conectados y a qué hora utilizaron el app.<br />5)Sabrás quién cambió su foto de perfil.",
+         "usuario": "admin",
+         "fecha_publicacion": "10/11/2022",
+         "numero_comentarios": 1,
+         "imagen":"./images/noticia2.png"
+      },
+      {
+         "id": "3",
+         "categoria": "Tecnología",
+         "titulo": "WhatsApp Plus Rojo: Descarga la última versión del APK de noviembre 2023",
+         "descripcion":"WhatsApp Plus se ha convertido en una de las aplicaciones no oficiales más utilizadas. Por ello, el APK ha realizado una nueva versión Red que brindará muchos beneficios a todos sus usuarios.<br />  El WhatsApp Plus Red cuenta funciones muy novedosas. Si quieres descargar este app no oficial en tu celular, entonces tienes que revisar las próximas líneas,  porque conocerás los simples pasos que debes seguir.<br /><br /> <h1>WhatsApp Plus Red: ¿Cuáles son las novedosas funciones?</h1><br />  Este WhastApp Plus Red cuenta con muchas novedades.  A continuación, te diremos un listado de las diferentes herramientas que posee este APK.<br /><br /> 1) Los usuarios pueden personalizar sus chats. No tienen muchos anuncios <br />2) Los colores de su interfaz <br />puedes cambiarlo a diferentes colores  3) Tiene una barra de navegación.<br /> 4) Se puede visualizar si tus amigos están conectados y a qué hora utilizaron el app.<br />5)Sabrás quién cambió su foto de perfil.",       
+         "usuario": "user",
+         "fecha_publicacion": "11/08/2023",
+         "numero_comentarios": 2,
+         "imagen":"./images/noticia3.png"
+      }
+   ]
+}

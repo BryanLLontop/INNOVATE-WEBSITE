@@ -1,0 +1,18 @@
+{
+    "publicidad": [
+        {
+            "id": "1",
+            "titulo": "-",
+            "imagen": "../images/publicidad/1.png",
+            "url": "./",
+            "fecha_publicacion": "10/10/2023"
+        },
+        {
+            "id": "2",
+            "titulo": "-",
+            "imagen": "../images/publicidad/2.png",
+            "url": "./",
+            "fecha_publicacion": "10/10/2023"
+        }
+    ]
+}
