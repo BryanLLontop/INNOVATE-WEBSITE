@@ -26,12 +26,15 @@ const CrudCliente = () => {
     const filteredMenus = datos.filter((fila) =>
         (fila.texto.toLowerCase().includes(searchTerm.toLowerCase()) || fila.titulo.toLowerCase().includes(searchTerm.toLowerCase())));
 
-    useEffect(() => {
-        fetch('http://localhost:3001/pgclientesinnovate')
-            .then(response => response.json())
-            .then(data => setDatos(data))
-            .catch(error => console.error('Error al obtener datos:', error));
-    }, []);
+        useEffect(() => {
+            fetch('/api/db.json')
+                .then(response => response.json())
+                .then(json => {
+                    const data: [] = json.pgclientesinnovate;
+                    setDatos(data);
+                })
+                .catch(error => console.error('Error al obtener datos:', error));
+        }, []);
 
 
 

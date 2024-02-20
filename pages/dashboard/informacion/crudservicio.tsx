@@ -24,12 +24,15 @@ const CrudServicio = () => {
     const filteredMenus = datos.filter((fila) =>
         (fila.nombre.toLowerCase().includes(searchTerm.toLowerCase()) || fila.descripcion.toLowerCase().includes(searchTerm.toLowerCase())));
 
-    useEffect(() => {
-        fetch('http://localhost:3001/pgservicios')
-            .then(response => response.json())
-            .then(data => setDatos(data))
-            .catch(error => console.error('Error al obtener datos:', error));
-    }, []);
+        useEffect(() => {
+            fetch('/api/db.json')
+                .then(response => response.json())
+                .then(json => {
+                    const data: [] = json.pgservicios;
+                    setDatos(data);
+                })
+                .catch(error => console.error('Error al obtener datos:', error));
+        }, []);
 
 
 

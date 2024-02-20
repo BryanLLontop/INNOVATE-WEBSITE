@@ -23,9 +23,12 @@ const GBinfo = () => {
     };
 
     useEffect(() => {
-        fetch('http://localhost:3001/pgsliderinnov')
+        fetch('/api/db.json')
             .then(response => response.json())
-            .then(data => setDatos(data))
+            .then(json => {
+                const data: [] = json.pgsliderinnov;
+                setDatos(data);
+            })
             .catch(error => console.error('Error al obtener datos:', error));
     }, []);
 

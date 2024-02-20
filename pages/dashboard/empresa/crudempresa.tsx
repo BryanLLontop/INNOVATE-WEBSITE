@@ -25,9 +25,12 @@ const Crudempresa = () => {
     const filteredMenus = datos.filter((item) => item.categoria === "quienessomos");
 
     useEffect(() => {
-        fetch('http://localhost:3001/pgcontent')
+        fetch('/api/db.json')
             .then(response => response.json())
-            .then(data => setDatos(data))
+            .then(json => {
+                const data: [] = json.pgcontent;
+                setDatos(data);
+            })
             .catch(error => console.error('Error al obtener datos:', error));
     }, []);
 

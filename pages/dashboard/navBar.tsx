@@ -28,11 +28,15 @@ const NavBar = () => {
         (fila.titulo.toLowerCase().includes(searchTerm.toLowerCase()) || fila.href.toLowerCase().includes(searchTerm.toLowerCase())));
 
     useEffect(() => {
-        fetch('http://localhost:3001/pgmenuinnovate')
-            .then(response => response.json())
-            .then(data => setDatos(data))
-            .catch(error => console.error('Error al obtener datos:', error));
-    }, []);
+            fetch('/api/db.json')
+                .then(response => response.json())
+                .then(json => {
+                    const data: [] = json.pgmenuinnovate;
+                    setDatos(data);
+                })
+                .catch(error => console.error('Error al obtener datos:', error));
+        }, []);
+
 
 
 

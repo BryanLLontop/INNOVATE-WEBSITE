@@ -25,13 +25,15 @@ const CrudProducto = () => {
     const filteredMenus = datos.filter((fila) =>
         (fila.nombre.toLowerCase().includes(searchTerm.toLowerCase()) || fila.titulo.toLowerCase().includes(searchTerm.toLowerCase())));
 
-    useEffect(() => {
-        fetch('http://localhost:3001/pgproductos')
-            .then(response => response.json())
-            .then(data => setDatos(data))
-            .catch(error => console.error('Error al obtener datos:', error));
-    }, []);
-
+        useEffect(() => {
+            fetch('/api/db.json')
+                .then(response => response.json())
+                .then(json => {
+                    const data: [] = json.pgproductos;
+                    setDatos(data);
+                })
+                .catch(error => console.error('Error al obtener datos:', error));
+        }, []);
 
 
     const handleEditClick = (id) => {
